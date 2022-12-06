@@ -63,7 +63,7 @@ export const Navbar = () => {
                 <ul className="navbar_left">
                   <div className="navbar_left_logo">
                     <h2>
-                     <a href="#"> VIK<span>ASH</span></a>
+                     <a href="#">  VIK<span>ASH</span></a>
                     </h2>
                   </div>
                 </ul>
