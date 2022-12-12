@@ -1,113 +1,121 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+ .projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    overflow-x: hidden;
+    padding: 2rem;
 }
 
-body {
-  font-family: "Poppins", sans-serif;
+
+.projects--header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 1rem;
 }
 
-html {
-  transition: 0.3s ease;
+
+.projects--header h1 {
+    margin-bottom: 40px;
+    font-size: 3.5rem;
+    font-family: var(--primaryFont);
 }
 
-.project_main_container {
-  padding: 60px 0;
+.projects--body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.project_container {
-  width: 80%;
-  margin: auto;
+.projects--bodyContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4.5rem;
+    width: 100%;
 }
 
-.project_heading {
-  padding: 0 0 50px 0;
-  text-align: center;
+.projects--viewAll {
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 2rem;
 }
 
-.project_heading h2 {
-  font-size: 35px;
-  font-weight: 700;
-}
-.project_heading span {
-  color: #e4002b;
-}
-
-.project_box {
-  padding: 20px;
-  height: auto;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
-    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
-    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
-  border-radius: 10px;
-}
-
-.project_box:hover {
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
-  cursor: pointer;
+.projects--viewAll a button {
+    outline: none;
+    border: none;
+    width: 150px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: inherit;
+    border-radius: 45px;
+    font-size: 1.05rem;
+    font-family: var(--primaryFont);
+    font-weight: 500;
+    padding-left: 1.5rem;
+    cursor: pointer;
 }
 
-.project_image img {
-  border-radius: 10px;
-  height: 170px;
-  transition: transform 0.5s linear;
-}
-.project_image img:hover {
-  transform: scale(1.1);
-  transition: 0.5s ease-in;
+
+
+@media (min-width: 992px) and (max-width: 1380px) {
+
 }
 
-.project_name {
-  text-align: center;
-  font-size: 22px;
-  font-weight: 700;
-  padding: 20px 0;
+
+@media screen and (max-width: 992px) {
+    .projects--bodyContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
 }
 
-.project_tech_stack {
-  padding: 10px 0;
+@media screen and (max-width: 800px) {
+    .projects--header h1 {
+        font-size: 3rem;
+        margin-bottom: 30px;
+    }
 }
 
-.project_tech_stack h5 {
-  font-size: 13px;
-  font-weight: 500;
+@media screen and (max-width: 600px) {
+    .projects--header h1 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+    .projects--viewAll {
+        position: relative;
+        margin-top: 4rem;
+    }
+    .projects--viewAll a {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);  
+    }
 }
 
-.project_tech_stack span {
-  font-size: 15px;
-  color: #e4002b;
-  font-weight: 500;
+@media screen and (max-width: 400px) {
+
+}
+  
+@media only screen and (min-device-width: 320px) and (max-device-width: 
+  480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
+
 }
 
-.project_icon {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 10px 0;
-}
 
-.project_icon div {
-  height: 50px;
-  width: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  transition: 0.1s ease;
-}
-.project_icon div:hover {
-  border-radius: 50%;
-  background-color: #e4002b;
-  color: #fff;
-}
+@media only screen and (device-width: 768px) {
 
-.project_icon a {
-  font-size: 30px;
-}
-.project_desc p {
-  font-size: 15px;
-  font-weight: 500;
 }

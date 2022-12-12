@@ -1,14 +1,20 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+import ThemeContextProvider from './contexts/ThemeContext'
 
-import App from "./App";
 
-import { ChakraProvider, ColorModeScript } from "@chakra-ui/react";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <ChakraProvider>
-    <ColorModeScript initialColorMode="light"></ColorModeScript>
-    <App />
-  </ChakraProvider>
+ReactDOM.render(
+    <ThemeContextProvider>
+      <App />
+    </ThemeContextProvider>,
+  document.getElementById('root')
 );
+
+
+reportWebVitals();
