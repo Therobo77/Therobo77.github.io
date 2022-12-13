@@ -1,7 +1,7 @@
 export const contactsData = {
-    email: 'webdeveshverma@gmail.com',
-    phone: '+91 7060596109',
-    address: 'Shastri Nagar Ghaziabad',
+    email: 'anshusinha8873@gmail.com',
+    phone: '+91 6203093280',
+    address: 'Deoghar Jharkhand',
 
     sheetAPI: 'https://sheetdb.io/api/v1/tt5b8x0x5sbmo'
 }
