@@ -21,7 +21,7 @@ function Main() {
             {/* <Achievement /> */}
             {/* <Services /> */}
             {/* <Testimonials /> */}
-            <Blog />
+            <Blog /> {/* Blog is using like a Testemonials Here */}
             <Contacts />
             <Footer />
         </div>
