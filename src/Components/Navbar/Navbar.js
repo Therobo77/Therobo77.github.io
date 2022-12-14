@@ -61,7 +61,7 @@ function Navbar() {
                 width: '12em',
             },
         },
-        closebtnIcon: {
+            closebtnIcon: {
             fontSize: '2rem',
             fontWeight: 'bold',
             cursor: 'pointer',
