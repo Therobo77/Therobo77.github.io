@@ -177,6 +177,7 @@ function Navbar() {
 
                 <div onClick={handleDrawerClose}>
                     <div className='navLink--container'>
+                    
                         <Fade left>
                             <NavLink
                                 to='/'
@@ -249,7 +250,7 @@ function Navbar() {
 
                         <Fade left>
                             <NavLink
-                                to='/#reference'
+                                to='/#Blog'
                                 smooth={true}
                                 spy='true'
                                 duration={2000}

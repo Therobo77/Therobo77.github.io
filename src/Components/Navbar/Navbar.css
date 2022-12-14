@@ -26,7 +26,7 @@
 }
 
 .navLink--container {
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
 
 .drawer > .MuiBackdrop-root {
@@ -50,7 +50,7 @@
 
 @media (max-width:800px) {
     .navLink--container {
-        margin-top: 3rem;
+        margin-top: 1rem;
     }
 }
 
