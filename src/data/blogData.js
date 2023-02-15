@@ -2,7 +2,7 @@ export const blogData = [
     {
         id: 1,
         title: 'Ankita Chandra ',
-        description: 'FULL STACK MERN DEVELOPER, Part of MASAI TRIBE, CODE VISUALIZER, love to visualize Algorithms to draw insights from them, A part-time Poet, Plays Badminton',
+        description: 'Waiting for Email',
         date: 'Strategy @Masai School',
         image: 'https://media.licdn.com/dms/image/C5603AQEIk2P_L7ETKg/profile-displayphoto-shrink_400_400/0/1589898336300?e=1676505600&v=beta&t=F0T07BFIpq9zWkWSEi3riRHSpB3Btk0Ms87dVrGzNn4',
         url: 'https://www.linkedin.com/in/ankita-chandra-8b44b417a/'
