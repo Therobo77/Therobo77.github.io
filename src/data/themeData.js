@@ -1,13 +1,29 @@
 /* eslint-disable */
-import { pinkThemegirl } from '../theme/images'
-import { 
-    greenThemeLight, greenThemeDark, bwThemeLight, bwThemeDark, blueThemeLight, blueThemeDark, redThemeLight, redThemeDark, orangeThemeLight, orangeThemeDark, purpleThemeLight, purpleThemeDark, pinkThemeLight, pinkThemeDark, yellowThemeLight, yellowThemeDark
-} from '../theme/theme'
-
+import { pinkThemegirl } from "../theme/images";
+import {
+  greenThemeLight,
+  greenThemeDark,
+  bwThemeLight,
+  bwThemeDark,
+  blueThemeLight,
+  blueThemeDark,
+  redThemeLight,
+  redThemeDark,
+  orangeThemeLight,
+  orangeThemeDark,
+  purpleThemeLight,
+  purpleThemeDark,
+  pinkThemeLight,
+  pinkThemeDark,
+  yellowThemeLight,
+  yellowThemeDark,
+} from "../theme/theme";
 
 export const themeData = {
-    theme:redThemeLight
-}
-
+  theme: redThemeLight,
+  // theme: greenThemeLight,
+  // theme: greenThemeDark,
+  // theme: pinkThemeLight,
+};
 
 // Choose theme from above

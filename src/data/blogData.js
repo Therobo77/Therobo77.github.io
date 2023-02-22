@@ -1,32 +1,48 @@
-export const blogData = [
-    {
-        id: 1,
-        title: 'Ankita Chandra ',
-        description: 'Waiting for Email',
-        date: 'Strategy @Masai School',
-        image: 'https://media.licdn.com/dms/image/C5603AQEIk2P_L7ETKg/profile-displayphoto-shrink_400_400/0/1589898336300?e=1676505600&v=beta&t=F0T07BFIpq9zWkWSEi3riRHSpB3Btk0Ms87dVrGzNn4',
-        url: 'https://www.linkedin.com/in/ankita-chandra-8b44b417a/'
-    },
-    {
-        id: 2,
-        title: 'Ankush Chinmani',
-        description: 'FULL STACK MERN DEVELOPER, Part of MASAI TRIBE, CODE VISUALIZER, love to visualize Algorithms to draw insights from them, A part-time Poet, Plays Badminton',
-        date: 'SCE Engeneer @Masai School',
-        image: 'https://media.licdn.com/dms/image/C4E03AQEHLAg0muPAaQ/profile-displayphoto-shrink_100_100/0/1594193533718?e=1676505600&v=beta&t=2SAq_x-1z1wHJwfjtAoicqqsVIIOi-p-qlAX4MnoaeA',
-        url: 'https://www.linkedin.com/in/ankush-chimnani/'
-    },
-    {
-        id: 3,
-        title: 'Yogesh Bhat',
-        description: 'FULL STACK MERN DEVELOPER, Part of MASAI TRIBE, CODE VISUALIZER, love to visualize Algorithms to draw insights from them, A part-time Poet, Plays Badminton',
-        date: 'Co-founder & SVP @Masai School',
-        image: 'https://media.licdn.com/dms/image/C4D03AQGDD9G1H0asoA/profile-displayphoto-shrink_400_400/0/1655700768997?e=1676505600&v=beta&t=11w_Ui2QXk0A_M_DY3_C-KU4vfYvakehcUj8bw7G3wk',
-        url: 'https://www.linkedin.com/in/yogeshbhatedutech/'
-    },
-   
-   
-]
+import Vikash from "../jpg/Vikash.jpeg";
+import Prateek from "../jpg/Prateek.png";
+import Yogesh from "../jpg/Yogesh.png";
+import AnkitaC from "../jpg/AnkitaC.png";
+import Ankur from "../jpg/Ankur.png";
+import Amit from "../jpg/Amit.png";
 
+export const blogData = [
+  
+  {
+    id: 1,
+    title: "Amit Ambastha ",
+    description: "Congratulations! Keep up the good work and stay motivated in your career journey. Best wishes for your future.",
+    date: "Senior Software Engineer at UNISYS",
+    image: Amit,
+    url: "https://www.linkedin.com/in/amit-ambastha-388833142/",
+  },
+  {
+    id: 2,
+    title: "Ankur Kayesth",
+    // description: "Waiting For Email",
+    description: "Your outstanding performance at Masai School is a testament to your dedication and passion. Your future is bright, and we are excited to see where your skills will take you.",
+    date: "SVP Marketing, Masai School",
+    image: Ankur,
+    url: "https://www.linkedin.com/in/ankush-chimnani/",
+  },
+  {
+    id: 3,
+    title: "Yogesh Bhat",
+    // description: "Waiting For Email",
+    description: "Well done! Your progress at Masai School has been impressive. We're proud of your accomplishments and wish you continued success.",
+    date: "Co-founder, SVP @Masai School",
+    image: Yogesh,
+    url: "https://www.linkedin.com/in/yogeshbhatedutech/",
+  },
+  {
+    id: 4,
+    title: "Ankita Chandra ",
+    description: "Congratulations on your hard-earned success! You have shown determination and talent, and I'm confident you'll thrive in your future endeavors. Keep up the great work!",
+    date: "Strategy @Masai School",
+    image: AnkitaC,
+    url: "https://www.linkedin.com/in/ankita-chandra-8b44b417a/",
+  },
+  
+];
 
 // export const blogData = [
 //     {
@@ -53,16 +69,11 @@ export const blogData = [
 //         image: 'https://i.ibb.co/qjby6Yc/Blog3.png',
 //         url: 'hhttps://medium.com/@webdeveshverma/skills-vs-degrees-9f24c882f23b'
 //     },
-   
-   
+
 // ]
-
-
-
 
 // Do not remove any fields.
 // Leave it blank instead as shown below.
-
 
 /* 
 {

@@ -7,15 +7,22 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 }
 
 .navbar--container {
+    /* background-color: #f03939; */
+    position: fixed;
+    /* border: 5px solid rgb(234, 223, 13); */
+    border-radius: 13px;
+    border-bottom: 6px solid #192ac2;
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
     padding: 0 3rem;
     margin-top: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 }
 
 .navbar--container > h1 {
@@ -26,7 +33,7 @@
 }
 
 .navLink--container {
-    margin-top: 2rem;
+    margin-top: 5rem;
 }
 
 .drawer > .MuiBackdrop-root {
@@ -50,7 +57,7 @@
 
 @media (max-width:800px) {
     .navLink--container {
-        margin-top: 1rem;
+        margin-top: 3rem;
     }
 }
 

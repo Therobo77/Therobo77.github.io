@@ -18,11 +18,15 @@ function Footer() {
     return (
         <div className="footer" style={{backgroundColor: theme.secondary}}>
             <p style={{color: theme.tertiary}}>
-                Made with  
+                Made By  
                 <span style={{color: theme.primary, margin: '0 0.5rem -1rem 0.5rem'}}>
-                    ❤
+                    ❤ Vikash
                 </span>
-                 by {shortname(headerData.name)}
+                @Copyright Reserved
+                 {/* by {shortname(headerData.name)} */}
+                 {/* <span style={{color: theme.primary, margin: '0 0.2rem -0.5rem 0.1rem'}}>
+                 @Copyright Reserved
+                </span> */}
             </p>
         </div>
     )

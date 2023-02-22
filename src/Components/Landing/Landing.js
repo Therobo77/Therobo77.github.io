@@ -186,7 +186,7 @@ function Landing() {
                                     rel='noreferrer'
                                 >
                                     <Button className={classes.resumeBtn}>
-                                        Download CV
+                                    Download CV
                                     </Button>
                                 </a>
                             )}

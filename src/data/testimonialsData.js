@@ -5,51 +5,65 @@ import girl3 from '../assets/svg/testimonials/girl3.svg'
 import boy1 from '../assets/svg/testimonials/boy1.svg'
 import boy2 from '../assets/svg/testimonials/boy2.svg'
 import boy3 from '../assets/svg/testimonials/boy3.svg'
-
+import  DISHA  from '../jpg/DISHA.png'
+import  Debobrota  from '../jpg/Debobrota.png'
+import  Nazamin  from '../jpg/Nazamin.png'
+import  Sonia  from '../jpg/Sonia.png'
+import  Satyam  from '../jpg/Satyam.png'
+import  Ujjwal  from '../jpg/Ujjwal.png'
+import  Sunny  from '../jpg/Sunny.png'
 
 
 export const testimonialsData = [
     {
         id: 1,
-        name: 'Chandler Bing',
-        title: 'Transponster',
-        text: "Building my own portfolio could've never been easier than this. The only areas I'm good at are Math, Jokes and Dance.",
-        image: boy2
+        name: 'Disha Manvi',
+        title: 'Quility Engineer',
+        text: "Vikash is an exceptional team player with excellent communication skills and the ability to collaborate effectively with others.",
+        image: DISHA
     },
     {
         id: 2,
-        name: 'Monica Geller',
-        title: 'Head Chef',
-        text: "This is the only thing that I didn't have to spend time to sort out. It's tidy all by itself.",
-        image: girl2
+        name: 'Debobrota Haldar',
+        title: ' Instructional Associate',
+        text: "Vikash is a true collaborator, bringing out the best in others and fostering success through seamless communication and teamwork.",
+        image: Debobrota
     },
     {
         id: 3,
-        name: 'Phoebe Buffay',
-        title: 'Massuese',
-        text: "Heard of the song 'Smelly Cat!!' ? This website made it viral. Plus portfolio is the only thing that Ursula doesn't have :)",
-        image: girl1
-    },
-    {
-        id: 4,
-        name: 'Joey Tribbiani',
-        title: 'Actor',
-        text: "Making my portfolio with this helped me get my role as 'Dr. Drake Ramoray' in 'Days Of Our Lives'. You guys are the best !",
-        image: boy1
+        name: 'Nazamin Shaikh',
+        title: 'Team Leader',
+        text: "Working with vikash has been a pleasure. Their outstanding collaboration skills and communication have made our team stronger.",
+        image: Nazamin
     },
     {
         id: 5,
-        name: 'Rachel Green',
-        title: 'Sales Executive',
-        text: 'Ralph Lauren was one of the best things that ever happened to me. My portfolio made that dream happen. I owe you guys.',
-        image: girl3
+        name: 'Satyam Kumar',
+        title: 'Team Member',
+        text: "Our team's success is due to Vikash's exceptional leadership, teamwork, and communication skills. We're grateful for their guidance.",
+        image: Satyam
     },
     {
+        id: 4,
+        name: 'Sonia Diwedi',
+        title: 'Team Member',
+        text: "Vikash is a remarkable team lead, whose exceptional collaboration and communication skills have helped us achieve great results together.",
+        image: Sonia
+    },
+    
+    {
         id: 6,
-        name: 'Ross Geller',
-        title: 'Paleontologist',
-        text: "Be it 'Rocks' or 'Bones', you need a website to display it. This is it. Great work guys !",
-        image: boy3
+        name: 'Ujjwal Singh',
+        title: 'Team Member',
+        text: "Thanks to Vikash's leadership, our team has thrived through outstanding collaboration, communication, and exceptional teamwork.",
+        image: Ujjwal
+    },
+    {
+        id: 7,
+        name: 'Saurav Sunny',
+        title: 'ABAP Developer at TCS',
+        text: "A talented and dedicated Front-end developer with an eye for detail.His skills has impressed the team.",
+        image: Sunny
     }
 ]
 

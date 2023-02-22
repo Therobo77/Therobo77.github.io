@@ -1,31 +1,50 @@
-import React from 'react'
-import { Helmet } from 'react-helmet'
+import React from "react";
+import { Helmet } from "react-helmet";
 
-import { Navbar, Footer, Landing, About, Skills, Testimonials, Blog, Education, Experience, Contacts, Projects, Services, Achievement } from '../../components'
-import { headerData } from '../../data/headerData'
+import {
+  Navbar,
+  Footer,
+  Landing,
+  About,
+  Skills,
+  Testimonials,
+  Blog,
+  Education,
+  Experience,
+  Contacts,
+  Projects,
+  Services,
+  Achievement,
+} from "../../components";
+import { headerData } from "../../data/headerData";
+import Github from "./../../components/Calendar/Github";
+// import { Stars } from './../../components/Calendar/Stars';
 
 function Main() {
-    return (
-        <div>
-            <Helmet>
-                <title>{headerData.name} - Porfolio</title>
-            </Helmet>
+  return (
+    <div>
+      <Helmet>
+        <title>{headerData.name} - Porfolio</title>
+      </Helmet>
 
-            <Navbar />        
-            <Landing />
-            <About />
-            <Education />
-            <Skills />
-            {/* <Experience /> */}
-            <Projects />
-            {/* <Achievement /> */}
-            {/* <Services /> */}
-            {/* <Testimonials /> */}
-            <Blog /> {/* Blog is using like a Testemonials Here */}
-            <Contacts />
-            <Footer />
-        </div>
-    )
+      <Navbar />
+      
+      <Landing />
+      <About />
+      <Education />
+      <Skills />
+      {/* <Experience /> */}
+      <Projects />
+      {/* <Achievement /> */}
+      <Services />
+      <Testimonials />
+      <Blog />
+      <Github />
+      {/* <Stars /> */}
+      <Contacts />
+      <Footer />
+    </div>
+  );
 }
 
-export default Main
+export default Main;
