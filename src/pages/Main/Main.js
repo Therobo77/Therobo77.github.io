@@ -18,7 +18,7 @@ import {
 } from "../../components";
 import { headerData } from "../../data/headerData";
 import Github from "./../../components/Calendar/Github";
-import { Stars } from './../../components/Calendar/Stars';
+// import { Stars } from './../../components/Calendar/Stars';
 
 function Main() {
   return (
@@ -40,7 +40,7 @@ function Main() {
       <Testimonials />
       <Blog />
       <Github />
-      <Stars />
+      {/* <Stars /> */}
       <Contacts />
       <Footer />
     </div>
