@@ -18,7 +18,7 @@ export const testimonialsData = [
     {
         id: 1,
         name: 'Disha Manvi',
-        title: 'Quility Engineer',
+        title: 'Quality Engineer',
         text: "Vikash is an exceptional team player with excellent communication skills and the ability to collaborate effectively with others.",
         image: DISHA
     },
