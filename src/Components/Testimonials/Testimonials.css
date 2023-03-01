@@ -221,6 +221,8 @@
   .review--img {
     margin: initial;
     align-self: flex-start;
+    width: 100px;
+    height: 100px;
   }
   .review--content{
       border-radius: 20px;
@@ -255,6 +257,7 @@
 }
 .review--img img{
     width: 70px;
+    height: 70px;
 }
   .review--content{
       min-height: 350px;
