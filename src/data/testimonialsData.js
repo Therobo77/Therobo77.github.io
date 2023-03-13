@@ -12,6 +12,7 @@ import  Sonia  from '../jpg/Sonia.png'
 import  Satyam  from '../jpg/Satyam.png'
 import  Ujjwal  from '../jpg/Ujjwal.png'
 import  Sunny  from '../jpg/Sunny.png'
+import  Sunny  from '../jpg/Zaid.png'
 
 
 export const testimonialsData = [
@@ -64,6 +65,13 @@ export const testimonialsData = [
         title: 'ABAP Developer at TCS',
         text: "A talented and dedicated Front-end developer with an eye for detail.His skills has impressed the team.",
         image: Sunny
+    },
+    {
+        id: 7,
+        name: 'Zaid',
+        title: 'Developer',
+        text: "I am thrilled to offer my wholehearted recommendation for Vikash as a Front-end developer. His expertise in the field is truly impressive, and his talent and dedication are second to none.",
+        image: Zaid
     }
 ]
 
