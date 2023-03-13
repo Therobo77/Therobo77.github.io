@@ -12,7 +12,7 @@ import  Sonia  from '../jpg/Sonia.png'
 import  Satyam  from '../jpg/Satyam.png'
 import  Ujjwal  from '../jpg/Ujjwal.png'
 import  Sunny  from '../jpg/Sunny.png'
-import  Zaid  from '../jpg/Zaid.png'
+import  Zaid  from '../jpg/Zaid.jpg'
 
 
 export const testimonialsData = [
