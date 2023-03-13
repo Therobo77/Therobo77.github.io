@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a599ddae.css",
-    "main.js": "/static/js/main.135be212.js",
+    "main.js": "/static/js/main.38d2ed6c.js",
     "static/js/787.fe87ab00.chunk.js": "/static/js/787.fe87ab00.chunk.js",
     "static/media/four.svg": "/static/media/four.797cac62273af3693cd624c5f58e33b5.svg",
     "static/media/three.svg": "/static/media/three.d4f751d1b799f45195a256c314211dfe.svg",
@@ -33,6 +33,7 @@
     "static/media/DISHA.png": "/static/media/DISHA.b26fdb09f7001be3bd8a.png",
     "static/media/eight.svg": "/static/media/eight.98202b95d509cbc0b88d686146465bf8.svg",
     "static/media/six.svg": "/static/media/six.bd765919ce8b5fdbd8ba7825c6eae897.svg",
+    "static/media/Zaid.jpg": "/static/media/Zaid.095c683d5e21a42b6aee.jpg",
     "static/media/Vikash.jpeg": "/static/media/Vikash.185b40a9fd6153012d66.jpeg",
     "static/media/contactsBlack.svg": "/static/media/contactsBlack.888fb5429daafbdcf2e79d16adf73902.svg",
     "static/media/contactsBlue.svg": "/static/media/contactsBlue.e1eaa2515ae80474560d0bad23694e02.svg",
@@ -157,11 +158,11 @@
     "static/media/vuetifyjs.svg": "/static/media/vuetifyjs.8a22a3ec81ad62e97094feab6e7ee0fb.svg",
     "static/media/bulma.svg": "/static/media/bulma.5910d4416e077262d0264109649ab214.svg",
     "main.a599ddae.css.map": "/static/css/main.a599ddae.css.map",
-    "main.135be212.js.map": "/static/js/main.135be212.js.map",
+    "main.38d2ed6c.js.map": "/static/js/main.38d2ed6c.js.map",
     "787.fe87ab00.chunk.js.map": "/static/js/787.fe87ab00.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a599ddae.css",
-    "static/js/main.135be212.js"
+    "static/js/main.38d2ed6c.js"
   ]
 }
