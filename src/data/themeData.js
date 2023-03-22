@@ -21,6 +21,8 @@ import {
 
 export const themeData = {
   theme: redThemeLight,
+  // theme:  blueThemeLight,
+  // theme:  blueThemeDark,
   // theme: greenThemeLight,
   // theme: greenThemeDark,
   // theme: pinkThemeLight,
