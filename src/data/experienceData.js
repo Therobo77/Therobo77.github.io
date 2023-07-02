@@ -1,11 +1,19 @@
 export const experienceData = [
     {
         id: 1,
+        company: 'Skiarotech Pvt. Ltd, Nagpur',
+        jobtitle: 'JS Developer/Code Reviewer',
+        startYear: 'December 2021',
+        endYear: 'Present'
+    },
+    {
+        id: 2,
         company: 'Under A FreeLancer',
         jobtitle: 'UI Designer',
-        startYear: '2021',
-        endYear: '2022'
+        startYear: ' January 2021',
+        endYear: ' November 2021'
     },
+    
     // {
     //     id: 2,
     //     company: 'Vehement Capital Partners',
