@@ -181,7 +181,7 @@ function Landing() {
                             {headerData.resumePdf && (
                                 <a
                                     href={headerData.resumePdf}
-                                    download='resume'
+                                    download='Vikash_Lal_Resume'
                                     target='_blank'
                                     rel='noreferrer'
                                 >
