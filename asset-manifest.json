@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.a599ddae.css",
-    "main.js": "/static/js/main.7641c958.js",
+    "main.js": "/static/js/main.05d41a08.js",
     "static/js/787.fe87ab00.chunk.js": "/static/js/787.fe87ab00.chunk.js",
     "static/media/four.svg": "/static/media/four.797cac62273af3693cd624c5f58e33b5.svg",
     "static/media/three.svg": "/static/media/three.d4f751d1b799f45195a256c314211dfe.svg",
     "static/media/Prateek.png": "/static/media/Prateek.cc5ce76cf50fac512395.png",
     "static/media/Amit.png": "/static/media/Amit.80c25d2717039c4fb3cd.png",
-    "static/media/Vikash_Kumar_Lal.pdf": "/static/media/Vikash_Kumar_Lal.9cbb408db6e5116921eb.pdf",
     "static/media/Ujjwal.png": "/static/media/Ujjwal.cd89c80b8e957c76f680.png",
     "static/media/Yogesh.png": "/static/media/Yogesh.d7aa05890e63c2ba9e82.png",
     "static/media/placeholder.png": "/static/media/placeholder.3fcbbdcd05f3e458d129.png",
+    "static/media/Vikash_Kumar_Lal.pdf": "/static/media/Vikash_Kumar_Lal.e7772df2b45817776abe.pdf",
     "static/media/Ankur.png": "/static/media/Ankur.cb1d9f44bf6b132a73bd.png",
     "static/media/Debobrota.png": "/static/media/Debobrota.d4bea5567954cd1f1c85.png",
     "static/media/expOrange.svg": "/static/media/expOrange.9383b2df918bf4e0ce67e3f289602562.svg",
@@ -158,11 +158,11 @@
     "static/media/vuetifyjs.svg": "/static/media/vuetifyjs.8a22a3ec81ad62e97094feab6e7ee0fb.svg",
     "static/media/bulma.svg": "/static/media/bulma.5910d4416e077262d0264109649ab214.svg",
     "main.a599ddae.css.map": "/static/css/main.a599ddae.css.map",
-    "main.7641c958.js.map": "/static/js/main.7641c958.js.map",
+    "main.05d41a08.js.map": "/static/js/main.05d41a08.js.map",
     "787.fe87ab00.chunk.js.map": "/static/js/787.fe87ab00.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a599ddae.css",
-    "static/js/main.7641c958.js"
+    "static/js/main.05d41a08.js"
   ]
 }
