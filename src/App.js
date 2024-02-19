@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-d
 
 import { ThemeContext } from './contexts/ThemeContext';
 import { Main, BlogPage, ProjectPage } from './pages'
-import { BackToTop } from './components'
+import { BackToTop } from './Components'
 import ScrollToTop from './utils/ScrollToTop'
 
 import './App.css'

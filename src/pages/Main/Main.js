@@ -15,10 +15,10 @@ import {
   Projects,
   Services,
   // Achievement,
-} from "../../components";
+} from "../../Components";
 import { headerData } from "../../data/headerData";
-import Github from "./../../components/Calendar/Github";
-// import { Stars } from './../../components/Calendar/Stars';
+import Github from "./../../Components/Calendar/Github";
+// import { Stars } from './../../Components/Calendar/Stars';
 
 function Main() {
   return (
@@ -28,7 +28,7 @@ function Main() {
       </Helmet>
 
       <Navbar />
-      
+
       <Landing />
       <About />
       <Education />

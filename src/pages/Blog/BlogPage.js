@@ -6,7 +6,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import { AiOutlineHome } from "react-icons/ai";
 
 import './BlogPage.css'
-import { SingleBlog } from '../../components'
+import { SingleBlog } from '../../Components'
 import { ThemeContext } from '../../contexts/ThemeContext';
 import { blogData } from '../../data/blogData'
 import { headerData } from '../../data/headerData'
@@ -23,8 +23,8 @@ function BlogPage() {
 
 
     const useStyles = makeStyles((t) => ({
-        search : {
-            color: theme.tertiary, 
+        search: {
+            color: theme.tertiary,
             width: '40%',
             height: '2.75rem',
             outline: 'none',
@@ -33,14 +33,14 @@ function BlogPage() {
             padding: '0.95rem 1rem',
             fontFamily: "'Noto Sans TC', sans-serif",
             fontWeight: 500,
-            fontSize: '0.9rem',  
-            backgroundColor: theme.secondary, 
+            fontSize: '0.9rem',
+            backgroundColor: theme.secondary,
             boxShadow: theme.type === 'dark' ? 'inset 3px 3px 6px #ffffff10, inset -3px -3px 6px #00000060' : 'inset 3px 3px 6px #ffffffbd, inset -3px -3px 6px #00000030',
             "&::placeholder": {
-                color: theme.tertiary80, 
+                color: theme.tertiary80,
             },
             [t.breakpoints.down('sm')]: {
-                width:'350px',
+                width: '350px',
             },
         },
         home: {
@@ -55,7 +55,7 @@ function BlogPage() {
             cursor: 'pointer',
             boxShadow: theme.type === 'dark' ? '3px 3px 6px #ffffff40, -3px -3px 6px #00000050' : '3px 3px 6px #ffffff40, -3px -3px 6px #00000050',
             transition: 'all 0.3s ease-in-out',
-            "&:hover": 
+            "&:hover":
             {
                 color: theme.tertiary,
                 transform: 'scale(1.1)',
@@ -69,24 +69,24 @@ function BlogPage() {
     const classes = useStyles();
 
     return (
-        <div className="blogPage" style={{backgroundColor: theme.secondary}}>
+        <div className="blogPage" style={{ backgroundColor: theme.secondary }}>
             <Helmet>
                 <title>{headerData.name} | Blog</title>
             </Helmet>
-            <div className="blogPage--header" style={{backgroundColor: theme.primary}}>
+            <div className="blogPage--header" style={{ backgroundColor: theme.primary }}>
                 <Link to="/">
-                    <AiOutlineHome className={classes.home}/>
+                    <AiOutlineHome className={classes.home} />
                 </Link>
-                <h1 style={{color: theme.secondary}}>Blogs</h1>
+                <h1 style={{ color: theme.secondary }}>Blogs</h1>
             </div>
             <div className="blogPage--container">
                 <div className="blog--search">
-                    <input type="text" value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Seach blog..." className={classes.search}/>
+                    <input type="text" value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Seach blog..." className={classes.search} />
                 </div>
                 <div className="blogs--container">
                     <Grid className="blog-grid" container direction="row" alignItems="center" justifyContent="center">
                         {filteredArticles.reverse().map(blog => (
-                            <SingleBlog 
+                            <SingleBlog
                                 theme={theme}
                                 title={blog.title}
                                 desc={blog.description}
