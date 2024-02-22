@@ -17,11 +17,12 @@ import {
   pinkThemeDark,
   yellowThemeLight,
   yellowThemeDark,
+  grayThemeLight
 } from "../theme/theme";
 
 export const themeData = {
   theme: redThemeLight,
-  // theme:  blueThemeLight,
+  theme:  grayThemeLight,
   // theme:  blueThemeDark,
   // theme: greenThemeLight,
   // theme: greenThemeDark,

@@ -1,10 +1,10 @@
 /* eslint-disable */
-import { 
-    blueThemegirl, blueThemeboy, bwThemeboy, bwThemegirl, greenThemeboy, greenThemegirl, orangeThemeboy, 
+import {
+    blueThemegirl, blueThemeboy, bwThemeboy, bwThemegirl, greenThemeboy, greenThemegirl, orangeThemeboy,
     orangeThemegirl, pinkThemeboy, pinkThemegirl, purpleThemeboy, purpleThemegirl, redThemeboy, redThemegirl, yellowThemeboy,
-    yellowThemegirl,eduBlack,eduBlue,eduGreen,eduOrange,eduPink,eduPurple,eduRed,eduYellow,expBlack,expBlue,expGreen,expOrange,
-    expPink,expPurple,expRed,expYellow,contactsBlack,contactsBlue,contactsGreen,contactsOrange,contactsPink,contactsPurple,
-    contactsRed,contactsYellow
+    yellowThemegirl, eduBlack, eduBlue, eduGreen, eduOrange, eduPink, eduPurple, eduRed, eduYellow, expBlack, expBlue, expGreen, expOrange,
+    expPink, expPurple, expRed, expYellow, contactsBlack, contactsBlue, contactsGreen, contactsOrange, contactsPink, contactsPurple,
+    contactsRed, contactsYellow
 } from './images'
 
 
@@ -93,7 +93,6 @@ export const bwThemeDark = {
     expimg: expBlack,
     contactsimg: contactsBlack
 }
-
 export const blueThemeLight = {
     type: 'light',
     primary: '#545fc4',
@@ -158,6 +157,7 @@ export const redThemeLight = {
     expimg: expRed,
     contactsimg: contactsRed
 }
+
 export const redThemeDark = {
     type: 'dark',
     primary: '#f03939',
@@ -179,7 +179,6 @@ export const redThemeDark = {
     expimg: expRed,
     contactsimg: contactsRed
 }
-
 export const orangeThemeLight = {
     type: 'light',
     primary: '#f56539',
@@ -222,7 +221,6 @@ export const orangeThemeDark = {
     expimg: expOrange,
     contactsimg: contactsOrange
 }
-
 export const purpleThemeLight = {
     type: 'light',
     primary: '#823ae0',
@@ -265,7 +263,6 @@ export const purpleThemeDark = {
     expimg: expPurple,
     contactsimg: contactsPurple
 }
-
 export const pinkThemeLight = {
     type: 'light',
     primary: '#ff4f93',
@@ -308,7 +305,6 @@ export const pinkThemeDark = {
     expimg: expPink,
     contactsimg: contactsPink
 }
-
 export const yellowThemeLight = {
     type: 'light',
     primary: '#E9AD35',
@@ -330,7 +326,6 @@ export const yellowThemeLight = {
     expimg: expYellow,
     contactsimg: contactsYellow
 }
-
 export const yellowThemeDark = {
     type: 'dark',
     primary: '#E9AD35',
@@ -353,3 +348,27 @@ export const yellowThemeDark = {
     contactsimg: contactsYellow
 }
 
+export const grayThemeLight = {
+    // background-color: rgb(202, 192, 192);
+
+    type: 'light',
+    primary: '#cac0c0',
+    primary400: '#b8b0b0',
+    primary600: '#c7a8a8',
+    primary80: '#cac0c0cc',
+    primary50: '#cac0c080',
+    primary30: '#cac0c04d',
+    secondary: '#eaeaea',
+    secondary70: '#eaeaeab3',
+    secondary50: '#eaeaea80',
+    tertiary: '#212121',
+    tertiary80: '#212121cc',
+    tertiary70: '#212121b3',
+    tertiary50: '#21212180',
+    aboutimg1: redThemeboy,
+    aboutimg2: redThemegirl,
+    eduimg: eduRed,
+    expimg: expRed,
+    contactsimg: contactsRed
+
+}

@@ -17,8 +17,7 @@ body {
   width: 80%;
   padding: 20px 20px 20px 50px;
   margin: auto;
-  box-shadow: rgba(230, 17, 166, 0.19) 0px 10px 20px,
-    rgba(70, 14, 202, 0.23) 0px 6px 6px;
+  /* box-shadow: rgba(230, 17, 166, 0.19) 0px 10px 20pxrgba(70, 14, 202, 0.23) 0px 6px 6px; */
 }
 
 .github_text {
@@ -32,4 +31,10 @@ body {
 }
 .github_text span {
   color: #e4002b;
+}
+.cal .react-activity-calendar .react-activity-calendar__calendar{
+/* border: 1px solid; */
+/* height: 280px; */
+margin: 6px;
+padding: 6px;
 }

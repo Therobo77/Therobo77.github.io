@@ -1,6 +1,6 @@
 .navbar {
     height: 6.5rem;
-    position: absolute;
+    position: fixed;
     background-color: transparent;
     z-index: 99;
     display: flex;
@@ -8,24 +8,25 @@
     justify-content: center;
     width: 100%;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    border-radius: 16px;
 }
 
 .navbar--container {
     /* background-color: #f03939; */
     position: fixed;
     /* border: 5px solid rgb(234, 223, 13); */
-    border-radius: 13px;
-    border-bottom: 6px solid #192ac2;
+    /* border-radius: 13px; */
+    /* border-bottom: 6px solid #192ac2; */
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
     padding: 0 3rem;
     margin-top: 1rem;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px; */
 }
 
-.navbar--container > h1 {
+.navbar--container>h1 {
     font-family: 'BestermindRegular';
     color: var(--primary-2);
     font-size: 2.5rem;
@@ -36,20 +37,22 @@
     margin-top: 5rem;
 }
 
-.drawer > .MuiBackdrop-root {
+.drawer>.MuiBackdrop-root {
     background: rgba(33, 33, 33, 0.15) !important;
     backdrop-filter: blur(20px) !important;
 }
 
 
 @media (max-width:1100px) {
-    .navbar--container{
+    .navbar--container {
         padding: 0 2rem;
     }
-    .navbar--container > h1{
+
+    .navbar--container>h1 {
         font-size: 2.2rem;
     }
-    .nav-menu{
+
+    .nav-menu {
         font-size: 2.2rem;
         margin-top: -1.5rem;
     }
@@ -63,31 +66,35 @@
 
 
 @media (max-width:600px) {
-    .nav-menu{
+    .nav-menu {
         color: var(--primary-2);
     }
-    .navbar--container > h1{
+
+    .navbar--container>h1 {
         font-size: 2rem;
     }
-    .nav-menu:hover{
+
+    .nav-menu:hover {
         color: var(--primary-2);
     }
-    .MuiDrawer-paper{
-      border-radius: 0 !important;
+
+    .MuiDrawer-paper {
+        border-radius: 0 !important;
     }
 }
 
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 
-  480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
     .navbar {
         height: 5rem;
     }
+
     .navbar--container {
         padding: 0 1rem;
         margin-top: 0rem;
     }
-    .navbar--container > h1 {
+
+    .navbar--container>h1 {
         font-size: 1.5rem;
     }
 }
