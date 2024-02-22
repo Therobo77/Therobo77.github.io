@@ -349,10 +349,8 @@ export const yellowThemeDark = {
 }
 
 export const grayThemeLight = {
-    // background-color: rgb(202, 192, 192);
-
     type: 'light',
-    primary: '#cac0c0',
+    primary: '#cac0c1',
     primary400: '#b8b0b0',
     primary600: '#c7a8a8',
     primary80: '#cac0c0cc',
@@ -372,3 +370,26 @@ export const grayThemeLight = {
     contactsimg: contactsRed
 
 }
+
+export const appealingGrayThemeLight = {
+    type: 'light',
+    primary: '#b0b0b0', // Slightly lighter gray for a softer look
+    primary400: '#979797', // A bit darker shade for contrast
+    primary600: '#858585', // Even darker for depth
+    primary80: '#b0b0b0cc',
+    primary50: '#b0b0b080',
+    primary30: '#b0b0b04d',
+    accent: '#4078a2', // Complementary accent color for variety
+    secondary: '#eaeaea',
+    secondary70: '#eaeaeab3',
+    secondary50: '#eaeaea80',
+    tertiary: '#212121',
+    tertiary80: '#212121cc',
+    tertiary70: '#212121b3',
+    tertiary50: '#21212180',
+    aboutimg1: redThemeboy,
+    aboutimg2: redThemegirl,
+    eduimg: eduRed,
+    expimg: expRed,
+    contactsimg: contactsRed
+};
