@@ -25,7 +25,7 @@ export const themeData = {
   theme: redThemeLight,
   theme:  grayThemeLight,
   theme:  appealingGrayThemeLight,
-  // theme: greenThemeLight,
+  theme: greenThemeLight,
   // theme: greenThemeDark,
   // theme: pinkThemeLight,
 };
