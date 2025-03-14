@@ -1,124 +1,104 @@
-/* .modal-content {
-    text-align: center;
-    padding: 20px;
-    background: linear-gradient(to right, #64b5f6, #1e88e5);
-    border-radius: 12px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;600&family=Source+Code+Pro:wght@400;700&display=swap');
+
+/* Typing Animation */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
 }
 
-.modal-title {
-    font-size: 24px;
-    font-weight: bold;
-    color: white;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
 }
 
-.modal-text {
-    font-size: 14px;
-    font-style: italic;
-    color: white;
-    margin-top: 10px;
-}
-
-.modal-button {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 20px;
-    background: white;
-    color: #1e88e5;
-    font-weight: bold;
-    border-radius: 8px;
-    text-decoration: none;
-    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
-    transition: background 0.3s ease-in-out;
-}
-
-.modal-button:hover {
-    background: #bbdefb;
-}
-
-.custom-close {
-    font-size: 24px;
-    font-weight: bold;
-    color: white;
-    background: #ff4d4d;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: background 0.3s ease-in-out;
-}
-
-.custom-close:hover {
-    background: #ff1a1a;
-}
- */
-
-
+/* Modal Appearance */
 .custom-modal .ant-modal-content {
-    background: linear-gradient(to right, #64b5f6, #1e88e5);
-    border-radius: 12px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    border: none;
-}
-
-.modal-content {
     text-align: center;
-    padding: 20px;
-    color: white;
+    background: rgba(22, 18, 18, 0.8);
+    /* Dark theme like a code editor */
+    border-radius: 12px;
+    box-shadow: 0px 4px 20px rgba(0, 255, 0, 0.3);
+    /* Green glow */
+    padding: 25px;
+    border: none;
+    font-family: 'Fira Code', monospace;
+    animation: modalFadeIn 0.5s ease-in-out;
 }
 
+/* Title with Typing Effect */
 .modal-title {
-    font-size: 24px;
-    font-weight: bold;
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
-    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #00ff00;
+    font-family: 'Fira Code', monospace;
+    text-transform: uppercase;
+    display: inline-block;
+    overflow: hidden;
+    border-right: 4px solid #00ff00;
+    white-space: nowrap;
+    width: 100%;
+    animation: typing 2s steps(30, end), blink 0.8s step-end infinite alternate;
 }
 
+/* Modal Text */
 .modal-text {
     font-size: 16px;
-    font-style: italic;
-    color: white;
-    margin-top: 10px;
     font-weight: bold;
+    color: #00ff00;
+    font-family: 'Source Code Pro', monospace;
+    margin-top: 10px;
+    text-shadow: 0px 0px 8px rgba(0, 255, 0, 0.6);
 }
 
+/* Hacker Style Button */
 .modal-button {
     display: inline-block;
     margin-top: 15px;
-    padding: 10px 20px;
-    background: white;
-    color: #1e88e5;
+    padding: 12px 24px;
+    background: black;
+    color: #00ff00;
     font-weight: bold;
+    font-size: 14px;
     border-radius: 8px;
     text-decoration: none;
-    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
-    transition: background 0.3s ease-in-out;
+    border: 2px solid #00ff00;
+    box-shadow: 0px 0px 12px rgba(0, 255, 0, 0.5);
+    transition: all 0.3s ease-in-out;
+    font-family: 'Fira Code', monospace;
+    letter-spacing: 1px;
 }
 
 .modal-button:hover {
-    background: #bbdefb;
+    background: #00ff00;
+    color: black;
+    box-shadow: 0px 0px 20px rgba(0, 255, 0, 0.8);
 }
 
+/* Close Button */
 .custom-close {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
-    color: white;
-    background: #ff4d4d;
+    color: #00ff00;
+    background: black;
+    border: 2px solid #00ff00;
     border-radius: 50%;
-    width: 30px;
-    height: 30px;
+    width: 34px;
+    height: 34px;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    transition: background 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .custom-close:hover {
-    background: #ff0000;
+    background: #00ff00;
+    color: black;
+    transform: rotate(360deg);
 }
