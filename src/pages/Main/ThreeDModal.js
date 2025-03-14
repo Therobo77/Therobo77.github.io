@@ -17,7 +17,7 @@ const ThreeDModal = () => {
         >
             <div className="modal-content">
                 <h1 className="modal-title">Experience Me in 3D!</h1>
-                <p className="modal-text">"They said it couldn’t be done... But here I am, in full 3D glory! Click below and behold greatness!"</p>
+                <p className="modal-text">They said it couldn’t be done... But here I am, in full 3D glory! Click below and behold greatness!</p>
                 <a
                     href={"https://vikasshh.netlify.app/"}
                     target="_blank"

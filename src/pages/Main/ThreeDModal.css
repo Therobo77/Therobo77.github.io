@@ -58,7 +58,7 @@
  */
 
 
- .custom-modal .ant-modal-content {
+.custom-modal .ant-modal-content {
     background: linear-gradient(to right, #64b5f6, #1e88e5);
     border-radius: 12px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
@@ -77,6 +77,14 @@
     font-weight: bold;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
     margin-bottom: 10px;
+}
+
+.modal-text {
+    font-size: 16px;
+    font-style: italic;
+    color: white;
+    margin-top: 10px;
+    font-weight: bold;
 }
 
 .modal-button {
@@ -114,4 +122,3 @@
 .custom-close:hover {
     background: #ff0000;
 }
-
