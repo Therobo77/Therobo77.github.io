@@ -16,7 +16,7 @@ const ThreeDModal = () => {
             closeIcon={<span className="custom-close">&times;</span>}
         >
             <div className="modal-content">
-                <h1 className="modal-title">Behold! <br /> The Future is Here! 🚀</h1>
+                <h1 className="modal-title">Behold! <br /> Watch Me in 3D ! 🚀</h1>
                 <p className="modal-text">
                     Scientists said it was impossible. Hollywood made movies about it.
                     But guess what? I defied all odds, broke all laws of physics,
